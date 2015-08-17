@@ -1,273 +1,1138 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<!-- Mirrored from famousthemes.com/wedding-bells/ by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Aug 2015 07:08:38 GMT -->
+<!-- Mirrored from www.webyzona.com/templates/themeforest/ilove/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Aug 2015 09:59:29 GMT -->
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1" />
-<meta name="author" content="FamousThemes" />
-<meta name="description" content="Get in the spotlight" />
-<meta name="keywords" content="premium css templates, premium wordpress themes, famous themes, themeforest" />
-<title>Wedding Bells | Responsive Wedding Template</title>
-<link rel="stylesheet" type="text/css" media="all" href="style.css" />
-<link rel="stylesheet" type="text/css" media="all" href="colors/green.css" />
-<link rel="stylesheet" href="css/carousel.css">
-<link href='http://fonts.googleapis.com/css?family=Clicker+Script' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
-</head>
-<body>
-<div id="main_container">
-
-    <a class="show_menu" href="#"><img src="images/mobile_menu_open.png" alt="" title="" /></a>
-    <a class="hide_menu" href="#"><img src="images/mobile_menu_close.png" alt="" title="" /></a>
-    
-    <nav class="menu">                                                                   
-        <ul id="main_menu">
-            <li><a class="selected" href="index.html">HOME</a></li>
-            <li><a href="page.html">THE WEDDING</a>
-            <ul>
-                <li><a href="page.html">LOVELY DROP DOWN</a></li>
-                <li><a href="page.html">LOVELY DROP DOWN</a></li>
-                <li><a href="page.html">LOVELY DROP DOWN</a></li>
-            </ul>
-            </li>
-            <li><a href="blog.html">BLOG</a></li>
-            <li><a href="photos.html">PHOTOS</a></li>
-            <li><a href="rsvp.html">RSVP</a></li>
-            <li><a href="contact.html">GET IN TOUCH</a></li> 
-        </ul>
-    </nav>
-    
-    <div class="title_container">
-     
-         <div class="title_front">WE ARE GETTING MARRIED</div>
-         <div class="love_birds"><img src="images/birds_icon.png" alt="" title=""/></div>
-         <div class="title">Jenifer <span>&amp;</span> Oliver</div>
-         <div class="title_date"><span class="swirl_left"><span class="swirl_right">12.07.2015</span></span></div>
-         <div class="title_under">SAVE THE DATE</div>
-         
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ilove HTML5 Bootstrap One Page Template</title>
+    <!-- Bootstrap 3.2 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome 4.2.0 -->
+	<link href="css/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- ilove Font 1.0 -->
+	<link href="css/ilove/font-ilove.css" rel="stylesheet">   
+    <!-- Animate -->
+	<link rel="stylesheet" href="css/animate.css">
+    <!-- Magnific popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Owl stylesheet -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <!-- Custom Style -->
+	<link rel="stylesheet" href="css/style.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+  	<!-- Preloader -->
+    <div id="preloader">
+        <div class="spinner">
+          <div class="rect1"></div>
+          <div class="rect2"></div>
+          <div class="rect3"></div>
+          <div class="rect4"></div>
+          <div class="rect5"></div>
+        </div>
     </div>
-
-    <div class="slider_container">
-            <div class="slider_trans_black"></div>
-            <div id="random">
-                <div style="background-image: url(images/slider/slide2.jpg);"></div>
-                <div style="background-image: url(images/slider/slide1.jpg);"></div> 
-                <div style="background-image: url(images/slider/slide3.jpg);"></div>                   
+   
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide carousel-fade">   
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+    		<div id="progressbar"></div>
+            <!-- Wrapper for slides -->           
+            <div class="carousel-inner">
+                <div class="messages">
+                        <h1 class="slideInDown wow animated" data-wow-delay="0.5s">Aadeel <span class="heart pulsing fa fa-heart"></span> Fatema</h1>
+                        <div id="time"></div>
+                        <h4 class="fadeIn wow animated" data-wow-delay="1.2s">In love and counting</h4>
+                        <div class="btn-special slideInUp wow animated page-scroll" data-wow-delay="0.7s">
+                            <a href="#about"><span>Discover More</span></a>
+                        </div>          
+                </div>
+                <div class="item active">
+                	<div class="carousel-img" style="background-image:url(images/carousel-1.jpg)"></div>                            
+                </div> 
+                <div class="item">
+                	<div class="carousel-img" style="background-image:url(images/carousel-2.jpg)"></div>                            
+                </div>
+                <div class="item">
+                	<div class="carousel-img" style="background-image:url(images/carousel-3.jpg)"></div>                            
+                </div>                                              
             </div>
-   </div>
-   <div class="countdown_container">
-       <h2 class="centered_title">Countdown to Wedding Ceremony</h2>
-       <div id="defaultCountdown"></div>
-       <div class="rsvp_button"><span class="swirl_left_small"><span class="swirl_right_small"><a href="#">RSVP</a></span></span></div>
-   </div>
-
-    <div class="about_content">
-    <div class="about_topsign">&amp;</div>
-     <div class="full_width_centered">
-     
-
-               <div class="left12_first">
-                   <span class="names_titles">THE BRIDE</span>
-                   <h2>JENIFER HARRISON</h2>
-                        <div class="about_pic_container">
-                        <span class="about_picframe"></span>
-                        <div class="about_social">
-                        <a href="#"><img src="images/social/twitter.png" alt="" title="" /></a>
-                        <a href="#"><img src="images/social/facebook.html" alt="" title="" /></a>
-                        <a href="#"><img src="images/social/pinterest.png" alt="" title="" /></a>
-                        </div>
-                        <div class="about_pic"><img src="images/image12.jpg" alt="" title="" /></div>
-                        </div>
-                    <a href="#" class="thumb_read_more">MORE ABOUT JENIFER</a>
-                   <p>Love is friendship that has caught fire. It is quiet understanding, mutual confidence, <a href="#">sharing and forgiving</a>. It is loyalty through good and bad times. It settles for less than perfection and <strong>makes allowances</strong> for human weaknesses "<a href="#">LOVE QUOTE</a>":</p>
-                   <span class="love_quote">Sometimes the heart sees what is invisible to the eye.</span>
-                   
+            <div class="overlay2"></div>               	
+            <div id="geo" class="geo">
+               <div id="output" class="geo">
                </div>
-               <div class="left12_last">
-                   <span class="names_titles">THE GROOM</span>
-                   <h2>OLIVER DUVALL</h2>
-                        <div class="about_pic_container">
-                        <span class="about_picframe"></span>
-                        <div class="about_social">
-                        <a href="#"><img src="images/social/twitter.png" alt="" title="" /></a>
-                        <a href="#"><img src="images/social/facebook.html" alt="" title="" /></a>
-                        <a href="#"><img src="images/social/pinterest.png" alt="" title="" /></a>
-                        </div>
-                        <div class="about_pic"><img src="images/image12_2.jpg" alt="" title="" /></div>
-                        </div>
-                    <a href="#" class="thumb_read_more">MORE ABOUT OLIVER</a>
-                   <p>I believe that imagination is stronger than knowledge. That myth is more potent than history. That dreams are more powerful than facts. That hope always triumphs over experience. That laughter is the only cure for grief. And I believe that love is stronger than death "<a href="#">LOVE QUOTE</a>":</p>
-                   <span class="love_quote">Where there is love there is life.</span>
-               </div>
+            </div>             
+    </div>
     
-          <div class="clear"></div>
-        </div>  <!--end of full width-->
-      </div> <!--end of about content-->   
-  
-  <div class="carousel_container"> 
-   <div class="carousel_container_image">
-     <div class="full_width_carousel">
-        <h2>OUR BRIDEMAIDS AND GROOMSMEN'S</h2>
-        <span class="carousel_titles">BEST MAN &amp; MAID OF HONOR</span>
-        <div id="weddingcarousel" class="owl-carousel">
-            <div class="left14"><div class="bestman"><span>BEST MAN</span><img src="images/bestman.png" alt="" title="" /></div><img src="images/image_14.jpg" alt="" title="" /><h3>MIKE STEPHANSON</h3></div>
-            <div class="left14"><div class="bestman"><span>MAID OF HONOR</span><img src="images/maidofhonor.png" alt="" title="" /></div><img src="images/image_14_3.jpg" alt="" title="" /><h3>LINDSEY REMY</h3></div>
-            <div class="left14"><img src="images/image_14_2.jpg" alt="" title="" /><h3>ELIZABETH LYN</h3></div>
-            <div class="left14_last"><img src="images/image_14_6.jpg" alt="" title="" /><h3>STEVE KAY</h3></div>
-            <div class="left14"><img src="images/image_14_5.jpg" alt="" title="" /><h3>JOHN DOE</h3></div>
-            <div class="left14"><img src="images/image_14_3.jpg" alt="" title="" /><h3>MAYA ELIOT</h3></div>
-            <div class="left14"><img src="images/image_14_7.jpg" alt="" title="" /><h3>JOHANNA PASCAL</h3></div>
-            <div class="left14_last"><img src="images/image_14_8.jpg" alt="" title="" /><h3>JOHN DOE</h3></div>
-        </div>   
-     </div>
-    </div> 
-  </div>
-  
-  <div class="full_width_centered">
-       <div class="latest_posts">
-            <h2>FROM THE BLOG</h2>
-            <div class="left13">
-              <div class="latest_post">
-                <div class="post_info">
-                   <span class="post_date">20 JUNE 2015</span>
-                   <h3><a href="blog-single.html">THE PROPOSAL WAS AMAZING</a></h3>
-                   <a href="blog-single.html" class="post_read_more">READ MORE</a>
-                </div> 
-                <img src="images/post_thumb1.jpg" alt="" title="" />
-              </div>
+	<div id="about"></div>    
+    <!--Navbar-->
+    <div class="topbar-nav">        
+        <nav class="navbar navbar-default navbar-custom" role="navigation">
+        	<div class="container">        
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                        <i class="fa fa-bars"></i>
+                    </button> 
+                    <a class="navbar-brand" href="#page-top">
+                        <img src="images/logo.png" alt="logo">
+                    </a>                              
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                    <ul class="nav navbar-nav">
+                        
+                        <li class="hidden">
+                            <a href="#page-top"></a>
+                        </li>                                               
+                        <li class="page-scroll">
+                            <a href="#about">Aadeel & Fatema</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#family">Our Family</a>
+                        </li>                        
+                        <li class="page-scroll dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#moments">Big Moments</a>
+                            <ul class="dropdown-menu wow swing" role="menu">
+                            	<li><a href="wedding.html">Wedding Event</a></li>
+                                <li><a href="#">Birthday</a></li>
+                                <li><a href="#">Graduation</a></li>
+                            </ul>                             
+                        </li>
+                        <li class="page-scroll">
+                            <a href="#favourites">Favorite List</a>                           
+                        </li>  
+						<li class="page-scroll dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#blog">Our Blog</a>
+                            <ul class="dropdown-menu wow swing" role="menu">
+                            	<li><a href="category.html">Category Page</a></li>
+                                <li><a href="post.html">Single Post</a></li>
+                                <li><a href="404.html">404 Error Page</a></li>
+                            </ul>
+                        </li>                                                        
+                        <li class="page-scroll">
+                            <a href="#contactus">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            
+        	</div>
+        </nav>
+	</div>   
+    
+	<!--Aadeel & Fatema Section-->
+    <section id="aboutthem" class="white">
+        <div class="container">
+        <div class="row">
+            	<div class="col-md-12">
+                	<div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Welcome Everyone</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">
+                        	Welcome to Aadeel's & Fatema's website where we proudly tell and recored our love story with all its ups and downs with all great moments and happy events.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <ul class="ch-grid man wow flipInX" data-wow-delay="0.5s">
+                            <li>
+                                <div class="ch-item ch-img-1">
+                                    <div class="ch-info">
+                                        <h3>I'm Aadeel</h3>
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>	
+                    </div>
+                    <div class="and">&amp;</div> 
+                    <div class="col-md-6">
+                        <ul class="ch-grid woman wow flipInX" data-wow-delay="0.5s">
+                            <li>
+                                <div class="ch-item ch-img-2">
+                                    <div class="ch-info">
+                                        <h3>I'm Fatema</h3>
+                                        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>	
+                    </div>              
+            	</div>
             </div>
-            <div class="left13">
-              <div class="latest_post">
-                <div class="post_info">
-                   <span class="post_date">18 MAY 2015</span>
-                   <h3><a href="blog-single.html">OUR ROMANTIC HONEYMOON IN VENICE</a></h3>
-                   <a href="blog-single.html" class="post_read_more">READ MORE</a>
-                </div> 
-                <img src="images/post_thumb2.jpg" alt="" title="" />
-              </div>
+        </div>        
+        <!--Loveline-->
+        <div class="container">                    
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Our Loveline</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">
+                        	<strong>Love Moments</strong> are special and it deserve to be recorded and to be always remembered!  our loveline is just summerize some of our important and happy moments.
+                        </p>
+                    </div>                
+                    <ul class="timeline"> 
+                        <li> 
+                            <div class="timeline-badge wow fadeInUp" data-wow-delay="0.5s"><i class="icon icolove-lips"></i></div> 
+                            <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">Our First Meet</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 24 May 2010 - By Aadeel</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                        It wasn't that long, and it certainly wasn't the kind of kiss you see in movies these days, but it was wonderful in its own way, and all I can remember about the moment is that when our lips touched, I knew the memory would last forever.
+                                    </p>
+                                </div> 
+                            </div> 
+                        </li>
+                         
+                        <li class="timeline-inverted negative100"> 
+                            <div class="timeline-badge time wow fadeInUp" data-wow-delay="0.5s"><i class="icon icolove-ring"></i></div> 
+                            <div class="timeline-panel wow fadeInRight" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">Got Engaged</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 20 Dec 2010 - By Eve</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                        Her boyfriend gives her a Mercedes, [her friends] say, 'Oh, that's nice.' But her boyfriend gives her a diamond, they say, 'Oh, he's serious.' It's not just the gift of love-it's the gift of commitment. She's not jumping up and down because she got a diamond ring but because she got a guy!
+                                    </p>                                      
+                                </div> 
+                            </div> 
+                        </li>
+                        
+                        <li class="negative75"> 
+                            <div class="timeline-badge wow fadeInUp" data-wow-delay="0.5s"><i class="icon icolove-married"></i></div> 
+                            <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">Getting Married</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 23 Dec 2015 - By Aadeel</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                        Marriage has made me a lot happier and I'm deeply in love with my wife, and I thank God for her every day.
+                                    </p>
+                                </div> 
+                            </div> 
+                        </li>
+                        
+                        <!--<li class="timeline-inverted negative50"> 
+                            <div class="timeline-badge time wow fadeInUp" data-wow-delay="0.5s"><i class="icon icolove-pregnancy"></i></div> 
+                            <div class="timeline-panel wow fadeInRight" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">I'm Pregnant</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 12 Jan 2012 - By Eve</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                        Of course I can do this. I'm pregnant, not brain-damaged. My condition doesn't change my personality.
+                                    </p>                                      
+                                </div> 
+                            </div> 
+                        </li>-->
+                        
+                        <!--<li class="negative75"> 
+                            <div class="timeline-badge wow fadeInUp" data-wow-delay="0.5s"><i class="icon icolove-babyboy"></i></div> 
+                            <div class="timeline-panel wow fadeInLeft" data-wow-delay="0.7s"> 
+                                <div class="timeline-heading"> 
+                                    <h4 class="timeline-title">Welcome Michael!</h4>
+                                    <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 1 Oct 2012 - By Aadeel</small></p> 
+                                </div> 
+                                <div class="timeline-body"> 
+                                    <p>
+                                        Welcome Our new little family member, he is so cute and we still afraid to hurt him as we really don't have experience with newborn, excuse us Michael!
+                                    </p>
+                                </div> 
+                            </div> 
+                        </li>-->
+                    </ul>
+                </div>
+            </div>                               
+    	</div>
+        <div class="separator"></div>       
+    </section>
+
+    <!--Family Section-->
+    <section id="family" class="white">
+        <div class="container">    
+            <div class="row">     
+                <!--Our Family-->       	
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Family Members</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>  
+                    <div class="col-md-4 man-family">
+                    	<h3>Aadeel's Family</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                    	<div id="owl-man-family" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-1.jpg" alt="team" />
+                                    <h4>Khizar</h4>
+                                    <h5>Father</h5>
+                                </div>                           
+                            </div> 
+                            
+                           	<div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-2.jpg" alt="team" />
+                                    <h4>Shehnaz</h4>
+                                    <h5>mother</h5>
+                                </div>                           
+                            </div> 
+                                                        
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-5.jpg" alt="team" />
+                                    <h4>Insiah</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-6.jpg" alt="team" />                        
+                                    <h4>Arwa</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div>                                                                                                                       
+                    	</div>            
+                 	</div>
+                    <div class="col-md-4">
+                    	<img class="img-responsive" src="images/couple-standing.jpg" alt="couple" />
+                    </div> 
+                    <div class="col-md-4 woman-family">
+                    	<h3>Fatema's Family</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                    	<div id="owl-woman-family" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-3.jpg" alt="team" />
+                                    <h4>Shamun Gajipurwala</h4>
+                                    <h5>Father</h5>
+                                </div>                            
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-4.jpg" alt="team" />                        
+                                    <h4>Hehnaz</h4>
+                                    <h5>Mother</h5>
+                                </div>                            
+                            </div>  
+                                                        
+                            <div class="owl-item">
+                                <div class="family-member">                        
+                                    <img class="img-responsive" src="images/family-7.jpg" alt="team" />
+                                    <h4>Shahin &amp; Zohra</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="family-member">
+                                    <img class="img-responsive" src="images/family-8.jpg" alt="team" />                        
+                                    <h4>Zainab</h4>
+                                    <h5>Sister</h5>
+                                </div>                            
+                            </div>                                                                                                                    
+                    	</div>            
+                 	</div>
+                    <!--Fun Facts-->
+                    <div id="startcounting" class="row count">
+                        <div class="col-md-12">
+                            <div class="heading wow fadeInUp" data-wow-delay="0.5s">
+                                <h2 class="wow fadeIn underline padtop50">Fun Facts</h2>
+                                <p class="wow fadeInUp" data-wow-delay="0.7s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                            </div>                                                   
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                            	<div class="fun-facts ico"><span class="icon icolove-movie"></span></div>
+                                <span class="counts" data-from="0" data-to="25" data-speed="5000" data-refresh-interval="50">0</span>
+                                <h5>Movies Watched</h5>
+                            </div>
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                                <div class="fun-facts ico"><span class="icon icolove-coffee"></span></div>
+                                <span class="counts" data-from="0" data-to="200" data-speed="300" data-refresh-interval="50">0</span>
+                                <h5>Cup of Coffee</h5>
+                            </div>                
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                                <div class="fun-facts ico"><span class="icon icolove-party"></span></div>
+                                <span class="counts" data-from="0" data-to="10" data-speed="5000" data-refresh-interval="50">0</span>
+                                <h5>Fun Parties</h5>
+                            </div>
+                            <div class="counting col-ms-12 col-sm-6 col-md-3 wow flipInY" data-wow-delay="0.7s">
+                                <div class="fun-facts ico"><span class="icon icolove-gamepad"></span></div>
+                                <span class="counts" data-from="0" data-to="35" data-speed="5000" data-refresh-interval="50">0</span>
+                                <h5>Game Played</h5>
+                            </div>                                                
+                        </div>
+                    </div>                       
+                                         
+                </div>
             </div>
-            <div class="left13_last">
-              <div class="latest_post">
-                <div class="post_info">
-                   <span class="post_date">31 MARCH 2015</span>
-                   <h3><a href="blog-single.html">LOVE IS COMPOSED OF A SINGLE SOUL</a></h3>
-                   <a href="blog-single.html" class="post_read_more">READ MORE</a>
-                </div> 
-                <img src="images/post_thumb3.jpg" alt="" title="" />
-              </div>
+        </div>
+    </section>
+    
+    <!--Big Moments-->
+    <section id="moments">
+    	<div class="container-fluid">
+            <div class="row">
+            	<div class="padtop75 white"></div>
+                <div class="col-lg-12 video-parallax">       	
+                    <div class="overlay"></div>
+                    <video id="bgvideo" preload="auto" autoplay loop muted="muted">
+                       <source src="video/wedding.html" type="video/webm">
+                       <source src="video/wedding.mp4" type="video/mp4">
+                       <source src="video/wedding-2.html" type="video/ogg">
+                       Your browser does not support the video element.
+                    </video>            
+                    <div class="col-md-12 playvid">
+                        <a class="fa fa-play-circle popup-vimeo wow zoomInDown" data-wow-duration="1s" data-wow-delay="0.9s" href="http://vimeo.com/54428266"></a>                    
+                    </div>
+                </div>
             </div>
-            <a href="blog.html" class="view_all">VIEW ALL POSTS</a>
-            <div class="clear"></div>
-      </div>
-  </div>
-  
-  
-  <div class="home_bottom">
-      <div class="full_width_centered">
-            <div class="left13"> 
-            <div class="bottom_icon"><img src="images/icon_music.png" alt="" title="" /></div>
-            <h2>BACHELOR PARTY</h2>
-            <span class="subtitle">BRING YOUR DANCING SHOES</span>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse <strong>cillum dolore</strong> eu fugiat nulla pariat ur si nt oc caecat non proident, sunt in culpa <a href="#">qui officia</a> deserunt mollit anim id est laborum sed quia non numquam eius modi.</p>
-            <a href="page.html" class="post_read_more">READ MORE</a>
-            </div>
-            <div class="left13">
-            <div class="bottom_icon"><img src="images/icon_location.png" alt="" title="" /></div>
-            <h2>WEDDING LOCATION</h2>
-            <span class="subtitle">VENICE, ITALY - HOTEL ADAM</span>
-            <p>Nemo enim ipsam voluptatem <strong>quia voluptas</strong> sit aspernatur aut odit aut fugit, sed quia consequuntur <a href="#">magni</a> dolores eos qui ratione voluptatem sequi nesciunt. Neque quisquam est, qui dolorem ipsum</p>
-            <a href="page.html" class="post_read_more">READ MORE</a>
-            </div>
-            <div class="left13_last">
-            <div class="bottom_icon"><img src="images/icon_gifts.png" alt="" title="" /></div>
-            <h2>GIFT REGISTRY</h2>
-            <span class="subtitle">GIVEN FREELY AND OUT OF PURE LOVE</span>
-            <p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit <a href="#">esse quam nihil</a> aspernatur aut odit aut fugit molestiae consequatur, vel illum <strong>qui dolorem</strong> eum fugiat quo voluptas nulla pariatur aspernatur.</p>
-            <a href="page.html" class="post_read_more">READ MORE</a>
+        </div>
+        
+		<div class="container-fluid white">        	
+            <!--Moments to remember-->
+        	<div class="container">           
+                <div class="row">            
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Moments to Remember</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.7s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             
-            <div class="clear"></div>
-      </div>
-  </div>
-   
-   <div class="footer">
-      <div class="full_width_centered">
-       <div class="footer_sign"><span class="swirl_left_transparent"><span class="swirl_right_transparent"><img src="images/birds_icon.png" alt="" title="" /></span></span></div>
-       <div class="footer_names">JENIFER &amp; OLIVER</div>
-       <div class="footer_socials">
-       <ul>
-       <li><a href="#"><img src="images/social/twitter.png" alt="" title="" /></a></li>
-       <li><a href="#"><img src="images/social/facebook.html" alt="" title="" /></a></li>
-       <li><a href="#"><img src="images/social/pinterest.png" alt="" title="" /></a></li>
-       <li><a href="#"><img src="images/social/vimeo.png" alt="" title="" /></a></li>
-       <li><a href="#"><img src="images/social/google.png" alt="" title="" /></a></li>
-       <li><a href="#"><img src="images/social/youtube.html" alt="" title="" /></a></li>
-       </ul>
-       </div>
-       <nav class="footer_menu">
-       <ul>
-       <li><a href="index.html" class="selected">HOME</a></li>
-       <li><a href="page.html">THE WEDDING</a></li>
-       <li><a href="rsvp.html">RSVP</a></li>
-       <li><a href="contact.html">GET IN TOUCH</a></li>
-       <li><a onClick="jQuery('html, body').animate( { scrollTop: 0 }, 'slow' );"  href="javascript:void(0);" class="gotop" title="Go on top">TOP</a> </li>
-       </ul>
-       </nav>
-       <div class="footer_copyright">Made with love by <a href="http://famousthemes.com/">FAMOUSTHEMES.COM</a> &amp; <a href="http://ourweddingtheme.com/">OURWEDDINGTHEME.COM</a></div>
-      </div>
-   </div>
+            <div class="bigmoments">
+            	<div id="owl-moments" class="owl-carousel">
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g1.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g1.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g5.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g5.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g2.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g2.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-video-camera fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g6.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g6.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-video-camera fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g3.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g3.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>	
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g7.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g7.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>   
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g4.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g4.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-video-camera fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g8.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g8.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-video-camera fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g1.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g1.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g5.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g5.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g2.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g2.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-video-camera fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g6.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g6.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-video-camera fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g3.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g3.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>	
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g7.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g7.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-photo fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>   
+                   </div>
+                   
+                   <div class="col-xs-12 col-sm-6 col-md-3 owl-item">
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g4.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g4.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-video-camera fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="grid cs-style-3">
+                            <li>
+                                <figure>
+                                    <img src="images/g8.jpg" class="img-responsive" alt="portfolio">
+                                    <a href="images/g8.jpg" class="popup-image" data-effect="mfp-zoom-in"><span class="fa fa-video-camera fa-2x"></span></a>
+                                    <figcaption>
+                                        <h4>Portfolio</h4>
+                                        <span>by Jacob Cummings</span>    
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                   </div>                        
+             	</div>
+             </div>
+            <!--Special Events-->
+        	<div class="container">                           
+                <div class="row">            
+                    <div class="col-md-12">
+                        <div class="heading">
+                            <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Special Events</h2>
+                            <p class="wow fadeInUp" data-wow-delay="0.7s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                	<div class="col-md-4">
+                    	<div class="event wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-home"></i>
+                            <h4 class="text-uppercase">Moved to our new home</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event alternative wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-plane"></i>
+                            <h4 class="text-uppercase">Malaysia Trip</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-car"></i>
+                            <h4 class="text-uppercase">Got Our New Car</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event alternative wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-like"></i>
+                            <h4 class="text-uppercase">Aadeel Got His Dream Job</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-graduate"></i>
+                            <h4 class="text-uppercase">EVE honored her PhD</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                    	<div class="event alternative wow flipInX" data-wow-delay="0.5s">
+                            <i class="icon icolove-football"></i>
+                            <h4 class="text-uppercase">Attended Brazil Worldcup</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rhoncus, leo at pretium commodo</p>
+                        </div>
+                    </div>
 
-</div>
-<!-- jQuery -->
-<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
-<!-- SLIDER -->
-<script type="text/javascript" src="js/jquery.skippr.js"></script>
-<script>
-	$(document).ready(function() {
-	    "use strict";
-		$("#random").skippr({
-			navType: 'bubble',
-			transition: 'fade',
-			autoPlay: true,
-			autoPlayDuration: 4000,
-			speed: 1000,
-			arrows: false
-		});
-		$("#weddingcarousel").owlCarousel({
-			items : 4,
-			itemsScaleUp : true,
-			navigationText : ["prev","next"]
-			})
-	});
-</script>
-<script src="js/owl.carousel.js"></script>
-<!-- DropDownMenu -->
-<script type="text/javascript" src="js/menu.js"></script>
-<script type="text/javascript" src="js/effects.js"></script>
-<script type="text/javascript" src="js/jquery.arctext.js"></script>
-<script type="text/javascript" src="js/jquery.countdown.js"></script>
-<script type="text/javascript">
-var $ = jQuery.noConflict();
-  $(window).load(function() {
-   "use strict"; 
-   var $titlefront = $('.title_front').hide();
-   var $titleunder = $('.title_under').hide();
-   var $bestman = $('.bestman span').hide();
-   var $footernames = $('.footer_names').hide();
-  
-   $titlefront.show().arctext({radius: 250});
-   $titleunder.show().arctext({radius: 180, dir: -1});
-   $bestman.show().arctext({radius: 80});
-   $footernames.show().arctext({radius: 120, dir: -1});
+                </div>
+            </div>                                              	
+            <div class="separator"></div>
+        
+        </div>
+	</section>
+	
+    <!--Favourites List-->
+    <section id="favourites" class="white">       
+        <div class="container">
+        	<div class="row">           	
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeIn underline padtop50" data-wow-delay="0.5s">Our Favourites</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div>                         
+                </div>
+                <div class="col-md-12 favlist">				
+                    <img src="images/couple.jpg" alt="couple">
+                    <div class="favlist-title">
+                        <div class="favlist-name">Aadeel</div>
+                        <div class="favlist-name">Fatema</div>
+                    </div>
+                    
+                    <ul class="timeline">
+                        <li>
+                            
+                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Favourite Meal"><i class="icon icolove-meal"></i></div> 
+                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Pasta White Sause</h4>
+                                <p>Sed ut perspiciatis unde omn iste natus error sit voluptatem accusantium </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Pizza Peproni</h4>
+                                <p>Sed ut perspiciatis unde omn iste natus error sit voluptatem accusantium </p>
+                            </div>                        
+                            
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Favourite Movie"><i class="icon icolove-film"></i></div> 
+                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Twilight Saga</h4>
+                                <p>Sed ut perspiciatis unde omn iste natus error sit voluptatem accusantium </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Transformers</h4>
+                                <p>Sed ut perspiciatis unde omn iste natus error sit voluptatem accusantium </p>
+                            </div>                        
+                            
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Favourite Color"><i class="icon icolove-palette"></i></div> 
+                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Blue</h4>
+                                <p>Sed ut perspiciatis unde omn iste natus error sit voluptatem accusantium </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Pink</h4>
+                                <p>Sed ut perspiciatis unde omn iste natus error sit voluptatem accusantium </p>
+                            </div>                        
+                            
+                            
+                        </li>
+                        
+                        <li>
+                            
+                            <div class="timeline-badge tooltips wow fadeIn" data-wow-delay="0.5s" data-toggle="tooltip" data-placement="top" title="Favourite Pet"><i class="icon icolove-pet"></i></div> 
+                            <div class="timeline-left wow fadeInLeft" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Dogs</h4>
+                                <p>Sed ut perspiciatis unde omn iste natus error sit voluptatem accusantium </p>
+                            </div>
+                            <div class="timeline-right wow fadeInRight" data-wow-delay="0.7s">
+                                <h4 class="timeline-title">Cats</h4>
+                                <p>Sed ut perspiciatis unde omn iste natus error sit voluptatem accusantium </p>
+                            </div>                        
+                            
+                            
+                        </li>
+                    </ul>
+                                
+                </div>
+                
+        	</div>            
+      	</div>       
+        <!--common Favorites Parallax-->
+        <div class="container-fluid commonfav">
+        	<div class="row">
+                <div class="col-lg-12 parallax-section common-parallax">
+                    <div class="overlay"></div>
+                    <div class="col-md-12">
+                        <h2 class="underline2 wow fadeIn" data-wow-delay="0.5s">Common Favorites</h2>
+                        <div id="owl-common" class="owl-carousel wow fadeInUp" data-wow-delay="0.7s">
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-place common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Place"></div>
+                                    <h4>Maldive Islands</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-book common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Book"></div>
+                                    <h4>Pride and Prejudice</h4>
+                                </div>                                                       
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-weather common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Season"></div>
+                                    <h4>Winter & Spring</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-music common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Song"></div>
+                                    <h4>Your Song - Elton John</h4>
+                                </div>                                                       
+                            </div>
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-mic common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Singer"></div>
+                                    <h4>Frank Sinatra</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-clothes common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Brand"></div>
+                                    <h4>Dolce and Gabbana</h4>
+                                </div>                                                       
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-place common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Place"></div>
+                                    <h4>Maldive Islands</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-book common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Book"></div>
+                                    <h4>Pride and Prejudice</h4>
+                                </div>                                                       
+                            </div> 
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-weather common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Season"></div>
+                                    <h4>Winter & Spring</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-music common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Song"></div>
+                                    <h4>Your Song - Elton John</h4>
+                                </div>                                                       
+                            </div>
+                            
+                            <div class="owl-item">
+                                <div class="common">
+                                	<div class="icon icolove-mic common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Singer"></div>
+                                    <h4>Frank Sinatra</h4>
+                                </div>
+                                <div class="common">
+                                	<div class="icon icolove-clothes common-icon tooltips" data-toggle="tooltip" data-placement="top" title="Favourite Brand"></div>
+                                    <h4>Dolce and Gabbana</h4>
+                                </div>                                                       
+                            </div>                                                                                                                                                      
+                        </div>
 
-   $('#defaultCountdown').countdown({until: new Date(2016, 8 - 1, 20, 15), format: 'y-o-d-h'});	 	
+                    </div>
+                </div> 
+        	</div>
+        </div>
+        
+    </section>
+    
+    <!--Blog Section-->
+    <section id="blog" class="white">
+    	<div class="container">
+        	<div class="row">
+                <div class="col-md-12">
+                    <div class="heading">
+                        <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Our Blog</h2>
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    </div> 
+                    <div class="fa fa-times blog-close-content"></div>
+                    <div id="blog-ajax-content"></div>           
+                    <div id="blogs" class="wow fadeInUp" data-wow-delay="0.5s">
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#blog1" class="blog-more">
+                            <figure>
+                                <img src="images/blog/1.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">25 Jan</div>
+                        <div class="year">2014</div>
+                        <h4><a href="#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="#">Webyzona</a> | <a href="#">0 Comments</a></div>
+                      </div>
+    
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#blog2" class="blog-more">
+                            <figure>
+                                <img src="images/blog/2.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">18 Feb</div>
+                        <div class="year">2014</div>
+                        <h4><a href="#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="#">Webyzona</a> | <a href="#">0 Comments</a></div>
+                      </div>
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#blog3" class="blog-more">
+                            <figure>
+                                <img src="images/blog/3.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">11 Dec</div>
+                        <div class="year">2014</div>
+                        <h4><a href="#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="#">Webyzona</a> | <a href="#">0 Comments</a></div>
+                      </div>
+                                        
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#blog4" class="blog-more">
+                            <figure>
+                                <img src="images/blog/4.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">1 Feb</div>
+                        <div class="year">2013</div>
+                        <h4><a href="#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="#">Webyzona</a> | <a href="#">0 Comments</a></div>
+                      </div>
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#blog5" class="blog-more">
+                            <figure>
+                                <img src="images/blog/5.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">18 Sep</div>
+                        <div class="year">2013</div>
+                        <h4><a href="#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="#">Webyzona</a> | <a href="#">0 Comments</a></div>
+                      </div>   
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#blog6" class="blog-more">
+                            <figure>
+                                <img src="images/blog/6.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">28 Jan</div>
+                        <div class="year">2013</div>
+                        <h4><a href="#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="#">Webyzona</a> | <a href="#">0 Comments</a></div>
+                      </div>
+                                        
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#blog7" class="blog-more">
+                            <figure>
+                                <img src="images/blog/7.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">15 Jan</div>
+                        <div class="year">2013</div>
+                        <h4><a href="#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="#">Webyzona</a> | <a href="#">0 Comments</a></div>
+                      </div>
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#blog8" class="blog-more">
+                            <figure>
+                                <img src="images/blog/8.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">16 Apr</div>
+                        <div class="year">2013</div>
+                        <h4><a href="#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="#">Webyzona</a> | <a href="#">0 Comments</a></div>
+                      </div>
+                      
+                      <div class="blog cs-style-3 wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="#blog9" class="blog-more">
+                            <figure>
+                                <img src="images/blog/9.jpg" class="img-responsive" alt="blog">
+                            </figure>
+                        </a>
+                        <div class="date">24 Aug</div>
+                        <div class="year">2013</div>
+                        <h4><a href="#">Tourist Taking Photos</a></h4>
+                        <p>Attribution not required but appreciated, you can share our website with your friends to offer you more quality photos.</p>
+                        <div class="stats">By : <a href="#">Webyzona</a> | <a href="#">0 Comments</a></div>
+                      </div>
+                                                                          
+                    </div>            
+                </div>
+        	</div>
+        </div>
+        <div class="separator"></div>
+    </section>     
+    
+    <!--Contact Section-->
+    <!--<section id="contactus" class="white contact">
+        Contact Form
+        <div class="container">
+        	<div class="row">
+            <div class="col-md-12">
+            	<div class="heading">
+                    <h2 class="wow fadeInUp underline padtop50" data-wow-delay="0.5s">Get in Touch</h2>
+                    <p class="wow fadeInUp" data-wow-delay="0.5s">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                </div>
 
-  });
-</script>
-<script type="text/javascript">
-var main_menu=new main_menu.dd("main_menu");
-main_menu.init("main_menu","menuhover");
-</script>
-</body>
+                <div id="ContactFormDiv"></div>
 
+                <form class="form-horizontal" method="post" action="http://www.webyzona.com/templates/themeforest/ilove/ajax/sendemail.php" name="ContactForm" id="contact">
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                    </div>
+
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="col-md-4">
+                      <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone">
+                    </div>
+                  
+                    <div class="col-md-12">
+                      <textarea name="comments" class="form-control" rows="10"></textarea>
+                    </div>
+                    
+                    <div class="col-md-12 btn-normal">
+                        <a href="#" id="submit"><span>Submit</span></a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        </div>
+    </section>        
+-->
+	<!--Footer Section-->
+    <section class="footer">    
+    	<!--Footer One-->
+        <div class="container-fluid color pattern">
+        	<div class="container">
+            	<div class="row">        	
+                    <div class="col-md-12 footer1">
+                        <div class="wow fadeInUp" data-wow-delay="0.5s">
+                            <p class="text-center"><span class="fa fa-twitter fa-5x"></span></p>
+                            <div class="footer-tweet">
+                            </div>
+                        </div>
+                    </div> 
+            	</div>
+            </div>
+    	</div>        
+    	<!--Footer Two-->
+    	<div class="container-fluid dark footer2">
+        	<div class="container">
+            	<div class="row">        	
+                <div class="col-md-12">
+                	<!--<img src="images/logo-grey.png" alt="logo"> -->                  
+                    <p>© GR : showoffs.in 2014 - All Rights Reserved. Made With Love For You Only</p>
+                    <div class="social-icons">
+                    	<ul>
+                            <li class="twitter">
+                            <a href="http://www.twitter.com/" target="_blank">Twitter</a>
+                            </li>
+                            
+                            <li class="facebook">
+                            <a href="http://www.facebook.com/" target="_blank">Facebook</a>
+                            </li>
+                            
+                            <li class="youtube">
+                            <a href="http://www.youtube.com/" target="_blank">YouTube</a>
+                            </li>
+                            
+                            <li class="googleplus">
+                            <a href="http://www.plus.google.com/" target="_blank">Google +r</a>
+                            </li>
+                            
+                            <li class="pinterest">
+                            <a href="http://www.pinterest.com/" target="_blank">Pinterest</a>
+                            </li>   
+
+                            <li class="linkedin">
+                            <a href="http://www.linkedin.com/" target="_blank">Linkedin</a>
+                            </li>                                                                                                                                               
+                    	</ul>
+                    </div>
+                </div>
+            </div>
+            </div>
+    	</div>
+    </section>            
+
+    <!-- Al JS Plugins -->
+    <script src="js/modernizr.custom.js"></script>
+	<script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/annyang.min.js"></script>
+    <script src="js/wow.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/smoothscrolling.js"></script>
+    <script src="js/custom.js"></script>    
+	<script src="js/fss.js"></script>      
+    <script src="js/geo.js"></script>      
+    <script src="js/jquery.countTo.js"></script>
+    <script src="js/jquery.mixitup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slide-fade-content.js"></script>
+    <script src="js/twitter/jquery.tweet.js"></script>
+    <script src="js/prefixfree.js"></script>
+    <script src="js/countup.js"></script>
+    <script src="js/modernizr.hover.js"></script>
+  </body>
+
+<!-- Mirrored from www.webyzona.com/templates/themeforest/ilove/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 17 Aug 2015 10:02:55 GMT -->
 </html>
+
